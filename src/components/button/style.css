@@ -1,0 +1,30 @@
+.button{
+    border: solid 1px black;
+    width: 85px;
+    text-align: center;
+  }
+  .button:hover{
+    cursor: pointer;
+  }
+  
+  .myButton{
+    color:red;
+  }
+  
+  .disabled{
+    color: lightGray;
+    background-color: gray;
+  }
+  
+  .dark{
+    color: white;
+    background-color: black;
+  }
+  .light{
+    color: black;
+    background-color: white;
+  }
+  .sepia{
+    color: orange;
+    background-color: darkOrange;
+  }

@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+// import Button from './components/button/Button';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// const themes = {
+//   DARK: "dark",
+//   LIGHT: "light",
+//   SEPIA: "sepia"
+// }
+// const buttonSizes = {
+//   SMALL: "small",
+//   MEDIUM: "medium",
+//   LARGE: "large"
+// };
+
+
+const App=()=>{
+  // const printTrigger=()=>{
+  //   console.log("Trigger");
+  // }
+  return(
+    <div>
+      {/* <Button
+        text="React Rock! ()(()())()" 
+        handleClick={ printTrigger }
+        customClasses="myButton"
+        theme={themes.LIGHT}
+      />
+      <Button 
+        text="React Rock1! ()(()())()" 
+        handleClick={ printTrigger }
+        theme={themes.SEPIA}
+      /> */}
     </div>
-  );
+  )
 }
 
 export default App;
