@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './style.css';
 
 const Button=({ text, handleClick, customClasses, disabled, theme, textColor })=>{
